@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.header-container {
+    justify-content: center;
+    padding: 10px;
+    box-shadow: rgb(0, 0, 0, 0.12);
+    display: flex;
+}
+
+.header-img {
+    flex: 1;
+    overflow: hidden;
+    padding: 16px;
+    margin: 0px 26px;
+    
+}
+
+.search-img {
+    border: none !important;
+    padding: none;
+}
+.custom-input-search {
+border-radius: 10%;
+}
+.header-img img {
+        overflow: clip;
+}
+
+.header-form {
+    flex: 1;
+}
+
+.header-form input {
+    background-color: #F2F2F2;
+}
+
+.header-button {
+    flex: 1;
+    color: #2e2e2e;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.container5{
+    background-color: green;
+}
+
+.container1 {
+    background: url("https://s3-alpha-sig.figma.com/img/756e/302b/7d56a759ac56bc165f65c40094aba4e8?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=eSS0Ck2OphFehO3j81PtkvcKnQLauO~cN1j725LqpiRQKVqw~G4Lm7cU~Nko3z3zVBynIE5LCCwtAKc0yl3uiZqJZUkGL7T08mpoARZYaEJyqYsQSjfrFN~J-K5~3yEXweDyxRuymi1E6sAzTif-sDHnga44ETBsm~1DG6ilIkxRLA4xZKklBOAZZTBAmRkp2nCiKwwQHbtdrmIUzoV5FLLWv-IR9Ud9zZpgdFj8AalZR1rawkmwcYJeA4H878lNLEXtTqWAVP34XYA1agiywmBA5p2PD3L3AP6EY4vFKx4qxVpGa4cHGK6-t-Ombn2SRgw4O5E4DaFYhnXyDpriqQ__") center center / cover no-repeat;
+    z-index: 1;
+    height: 480px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.container1-text {
+    margin-top: 325px;
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+
+.imagePost {
+    height: 220px;
+    border-radius: 4px 4px 0 0;
+    background-color: #c4c4c4;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+}
+
+.create-account {
+    border: 1px solid black;
+    margin: auto;
+   
+}
+
+#create-form {
+    display: none;
+    z-index: 2;
+    background-color: white;
+}
